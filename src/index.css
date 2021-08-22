@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+    --base-color-1: #FFFFFF;
+    --base-color-2: #e8e8e9;
+    --base-color-3: #D1D1D0;
+    --base-color-4: #949496;
+    --base-color-5: #75767A;
+    --base-color-6: #58585B;
+    --secondary-color-1: #155D82;
+    --secondary-color-2: #148CC4;
+    --secondary-color-3: #CAE1EF;
+    --primary-color-1: #F36F21;
+    --primary-color-2: #BE4915;
+    --tertiary-color-1: #51B257;
+    --tertiary-color-2: #008535;
+    --warning-color: #FF0000;
+    --accent-color-1: #EB104A;
+    }
+  }
+
+  input:focus-within ~ label,
+  input:not(:placeholder-shown) ~ label {
+    @apply transform; @apply scale-75; @apply -translate-y-3;
+  }
+   
+  input:focus-within ~ label {
+    @apply text-baseColor6;
+  }
+  
