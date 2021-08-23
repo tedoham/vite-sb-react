@@ -14,5 +14,8 @@ export default {
     MenuAvatar.args = {
         menuData: [
             {menuTitle: "Menu one", href: "#"},
+            {menuTitle: "Menu two", href: "#"},
+            {menuTitle: "Menu three", href: "#"},
+            {menuTitle: "Menu four", href: "#"},
         ]
     };
